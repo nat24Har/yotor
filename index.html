@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yotor IT Solutions</title>
+    <!-- Add your CSS stylesheets here, if any -->
+    <style>
+        body {
+            color: #d0e2cf;
+            display: flex;
+            flex-direction: column;
+        }
+        /* Dark Mode Styles */
+        body.dark-mode {
+            background-color: #111;
+            color: #fff;
+        }
+        
+        /* Header Styles */
+        header {
+            background-color: #333;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        
+        /* Main Content Styles */
+        main {
+            padding: 20px;
+            font-family: 'Helvetica Neue', sans-serif;
+        }
+        
+        /* Footer Styles */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+    <script>
+        // JavaScript code to toggle dark mode
+        const body = document.body;
+        const darkModeButton = document.getElementById('dark-mode-toggle');
+
+        darkModeButton.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+        });
+    </script>
+</head>
+<body style="background-color: black;">
+    <!-- Navigation Menu -->
+    <nav>
+        <ul style="background-color: #333; height: 5vh; display: flex; justify-content: flex-end; align-items: center; padding: 0; border-radius: 10px;">
+            <li style="list-style: none;">
+                <span style="background-color: black; margin: 0 10px; padding: 5px 15px; border-radius: 10px;">
+                    <a href="#" style="color: #FF5733; text-decoration: none;">Home</a>
+                </span>
+            </li>
+            <li style="list-style: none;">
+                <span style="background-color: black; margin: 0 10px; padding: 5px 15px; border-radius: 10px;">
+                    <a href="#" style="color: #FF5733; text-decoration: none;">About</a>
+                </span>
+            </li>
+            <li style="list-style: none;">
+                <span style="background-color: black; margin: 0 10px; padding: 5px 15px; border-radius: 10px;">
+                    <a href="#" style="color: #FF5733; text-decoration: none;">Contact</a>
+                </span>
+            </li>
+        </ul>
+    </nav>
+    
+    <style>
+        /* Hover Styles */
+        a:hover {
+            color: black; /* Change the text color on hover */
+            background-color: #060704; /* Change the background color on hover */
+            transition: color 0.3s, background-color 0.3s; /* Add smooth transition */
+        }
+    </style>
+    
+    
+    <!-- Header Section -->
+    <header style="border-radius: 10px;">
+        <h1 style="border-radius: 10px;">Welcome to Yotor IT Solutions</h1>
+        
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- Add your main content here -->
+        <section>
+            <h2>About Us</h2>
+            <p>
+                We are a leading innovator in Full Stack Web Development, specializing in robust back-end solutions with Django and Python, captivating user interfaces, and dynamic single-page applications with React. 
+                Our expertise seamlessly blends back-end data with design through Jinja templates, resulting in visually stunning web pages.
+                With a track record of innovation and creativity, we're not just developers; we're creators of digital narratives that resonate deeply.
+            </p>
+        </section>
+
+        <section>
+            <h2>Services</h2>
+            <p>
+                Our core services empower businesses in the digital landscape. 
+                We offer robust back-end solutions, captivating user interfaces, and dynamic single-page applications. 
+                We excel at seamlessly blending back-end data with design, creating visually stunning web pages.
+                Beyond coding, we're committed to translating innovation into meaningful digital stories and transforming visions into captivating digital realities.
+                Join us and experience the magic of technology and emotions intertwining.
+            </p>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+   <!-- Footer Section -->
+<footer>
+    <div class="footer-content">
+        <div class="footer-left">
+            <p class="footer-title">&copy; 2023 Yotor IT Solutions</p>
+            <p>Owner: Natnael Wolde</p>
+            <p class="contact-info">Company Email: <a href="mailto:Yotor.it.solutions@gmail.com">Yotor.it.solutions@gmail.com</a></p>
+            <p class="contact-info">Owner Email: <a href="mailto:natnaelwolde333@gmail.com">natnaelwolde333@gmail.com</a></p>
+        </div>
+        <div class="footer-right">
+            <p class="contact-info">Phone: <a href="tel:+251993813229">+251-993813229</a></p>
+            <p>Address: Bole Sub City 05 05, Addis Ababa, Ethiopia</p>
+        </div>
+    </div>
+    <!-- You can also add an image here for the owner -->
+</footer>
+
+<style>
+    /* Style the footer container */
+    footer {
+        background-color: #333; /* Dark background color */
+        color: #fff; /* Light text color */
+        padding: 30px 0; /* Add more padding for spacing */
+        text-align: center; /* Center-align text */
+        height: 25vh;
+        border-radius: 10px;
+    }
+
+    /* Style the copyright notice */
+    .footer-title {
+        font-weight: bold;
+        font-size: 20px; /* Larger font size */
+        margin-bottom: 0px; /* Add margin below the title */
+        margin-top: 0px;
+    }
+
+    /* Style the owner's information */
+    .footer-left p:nth-child(2) {
+        font-weight: bold;
+        font-size: 18px; /* Slightly larger font size */
+    }
+
+    /* Style the contact information */
+    .contact-info {
+        font-size: 16px; /* Larger font size for contact info */
+        margin: 5px 0; /* Add some margin between items */
+    }
+
+    /* Style the links */
+    .contact-info a {
+        color: #FF5733; /* Highlighted link color */
+        text-decoration: none;
+        transition: color 0.3s; /* Smooth link color transition */
+    }
+
+    .contact-info a:hover {
+        color: #fff; /* Change link color on hover */
+    }
+
+    /* Style the address and image (if you add one) */
+    .footer-right p:last-child {
+        margin-top: 20px; /* Add more margin above the address */
+    }
+
+    /* Add a subtle shadow to the footer */
+    footer {
+        box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.2);
+    }
+</style>
+
+    
+</body>
+</html>
